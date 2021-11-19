@@ -1,10 +1,9 @@
+package com.sorting;
 
-/*
-∗ CSC144 Object−Oriented Programming
-∗ Brodie McCuen
-∗ 16 November 2021
-*/
-
+/**
+ * Object Oriented Programming csc_144
+ * Brodie McCuen
+ */
 import java.util.*;
 
 public class Sorting {
@@ -39,7 +38,7 @@ public class Sorting {
         }
 
         return smallest;
-
+        
     } // end of smallestNumber
 
     public static int getIndexSmallest(List<Integer> list) {
@@ -76,7 +75,7 @@ public class Sorting {
             int j = smallestFromIndex(list, i);
             swap(list, i, j);
         }
-    }
+    } // selectionSort(List<Integer>)
 
 
     public static boolean ascending(List<Integer> list, int max) {
@@ -100,7 +99,7 @@ public class Sorting {
         if (!ascending(list, max)) {
             move(list, max-1);
         }
-    }
+    } // move(List<Integer>, int)
 
     public static List<Integer> merge(List<Integer> sorted1, List<Integer> sorted2) {
         int index1 = 0;
