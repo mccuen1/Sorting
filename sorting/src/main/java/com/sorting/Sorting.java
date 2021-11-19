@@ -1,8 +1,12 @@
 package com.sorting;
 
-/**
- * Object Oriented Programming csc_144
+/*
+ * Week 0 Programming Project
+ * CSC 144 Object-Oriented Programming
  * Brodie McCuen
+ * November 19, 2021
+ * 
+ * List.indexOf() function gotten from arrayList documentation
  */
 import java.util.*;
 
